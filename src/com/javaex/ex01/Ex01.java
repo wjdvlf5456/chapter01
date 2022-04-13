@@ -1,0 +1,59 @@
+/*
+작성자:최정필
+작성일: 2022-04-13
+설 명: 나이기록 프로그램
+*/
+package com.javaex.ex01;
+
+public class Ex01 {
+	
+	public static void main (String[] args) {
+		
+		
+		//변수선언 + 초기화
+		int myAge = 25;
+		
+		/*
+		int myAge;
+		myAge = 25;
+		*/
+		//메모리의 값을 출력하는 메소드
+		System.out.println(myAge);
+		
+		myAge = 26;
+		System.out.println(myAge);
+		
+		byte no;
+		no = -128;
+		System.out.println (no);
+		
+//		int 범위까지는 L을 붙이지 않아도 된다.
+//		int 범위를 벗어나느 경우 L을 붙인다.
+		long no2;
+		no2 = 122337667;
+		System.out.println (no2);
+		
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
