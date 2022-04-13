@@ -2,7 +2,7 @@ package com.javaex.ex01;
 
 public class Ex03 {
 
-    public static void main(String[]args){
+    public static void main(String[] args){
 	
 		boolean b01 = true;
 		boolean b02 = false;
