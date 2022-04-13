@@ -45,6 +45,9 @@ public class Ex01 {
 		var01 = 10;
 		var02 = 20;
 		var03 = 30;
+		System.out.println(var01);
+		System.out.println(var02);
+		System.out.println(var03);
 
 		// 변수여러개일 때 변수+초기화
 		int var04 = 10;
@@ -54,8 +57,6 @@ public class Ex01 {
 		System.out.println(var04);
 		System.out.println(var05);
 		System.out.println(var06);
-		
-		
-		
+
 	}
 }
