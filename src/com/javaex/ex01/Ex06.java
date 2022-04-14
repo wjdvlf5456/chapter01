@@ -18,5 +18,13 @@ package com.javaex.ex01;
 			
 			float result = var02 + var03; //var02(12345l) --> 12345.0f
 			System.out.println(result);
+			
+			
+			//////////////////////////////////////////////////////////////
+			
+			//강제형변환
+			float var04 = 1111.62345f; //반올림 안 됨
+			int var05 = (int)var04;
+			System.out.println(var05);
 		}
 	}
