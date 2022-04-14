@@ -57,6 +57,7 @@ public class Ex01 {
 		System.out.println(var04);
 		System.out.println(var05);
 		System.out.println(var06);
+		
 
 	}
 }

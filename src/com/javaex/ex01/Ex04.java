@@ -17,5 +17,9 @@ public class Ex04 {
 		
 		String str = "안녕하세요";
 		System.out.println(str);
+		
+		double Pi = 3.14;
+		System.out.println(Pi);
+		
 	}
 }
