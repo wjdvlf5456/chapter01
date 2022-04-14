@@ -24,6 +24,7 @@ public class Ex07 {
 		int v05 = (int)1.3 + (int)1.8;
 		System.out.println(v05);
 		
+		
 	}
 
 }
