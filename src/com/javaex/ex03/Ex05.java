@@ -15,7 +15,7 @@ public class Ex05 {
 		int overtime = (hour-8)*15000;
 		if (hour<=8) {
 			System.out.println("임금은 "+salary+"원 입니다.");
-		}else {
+		} else {
 			System.out.println("임금은 "+overtime+80000+"원 입니다.");
 		}
 		sc.close();
@@ -25,10 +25,11 @@ public class Ex05 {
 		System.out.print("근무시간: ");
 		int time = sc.nextInt();
 		int pay;
+		
 		if (time<=8) {
 			pay = time*10000; 
 		} else {
-			pay = 8*10000 + (time-8)*12000;
+			pay = 8*10000 + (time-8)*((int)(10000*1.5));
 		}
 		System.out.println("임금은 "+pay+" 입니다.");
 		

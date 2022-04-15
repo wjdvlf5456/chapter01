@@ -14,7 +14,7 @@ public class Ex06 {
 		if (score%3==0) {
 			System.out.println(+score+" 는 3의 배수가 맞습니다.");
 			
-		}else {
+		} else {
 			System.out.println(+score+" 는 3의 배수가 아닙니다.");
 		}
 		sc.close();
