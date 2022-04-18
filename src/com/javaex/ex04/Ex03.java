@@ -14,7 +14,7 @@ public class Ex03 {
 		int num = sc.nextInt();
 		
 		for	(int i = 1;i<10;i++) {							// --> (초기값;조건문;증감식)
-			System.out.println(num+" * "+i+" = "+num*i);
+			System.out.println(num+" * "+i+" = "+num*i);	// --> 실행내용
 			
 		}
 		
