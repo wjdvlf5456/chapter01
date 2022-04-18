@@ -4,14 +4,15 @@ public class Ex08 {
 	
 	public static void main(String[] args) {
 		
-		for (int i = 1; i <=6; i++) {
-			
-			for (int j = 1; j < i; j++) {
-				System.out.print("*");
+		
+		for (int i=1; i > 0; i++) {
+			if (i%6==0 && i%14==0) {
+				
+				System.out.println(i);
+				break;
 			}
-			
-			System.out.println("*");
 		}
+
 			
 	}
 
