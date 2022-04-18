@@ -13,9 +13,14 @@ public class Ex02 {
 		System.out.print("단 : ");
 		int num = sc.nextInt();
 		
+		
+		//시작값
 		int i = 1;
+		//어디까지 반복할 지 조건식
 		while (i<10) {
+			//출력값
 			System.out.println(num+" * "+i+" = "+num*i);
+			//증감식
 			i++;
 		}
 		
