@@ -10,6 +10,26 @@ public class Ex11 {
 			}
 			System.out.println(i);
 		}
+		System.out.println("====================");
+
+		for (int i = 1; i <= 20; i++) {
+
+			if (i % 2 == 0 || i % 3 == 0) {
+				// 아무것도 안 한다
+			} else {
+				System.out.println(i);
+
+			}
+
+		}
+		System.out.println("====================");
+
+		for (int i = 1; i <= 20; i++) {
+			if (i % 2 == 0 || i % 3 == 0) {
+				System.out.println(i);
+			}
+		}
+
 	}
 
 }
