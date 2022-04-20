@@ -4,16 +4,16 @@ public class Ex04 {
 
 	public static void main(String[] args) {
 
-		String[] fName = new String[5];
+		String[] str = new String[5];
 
-		fName[0] = "안";
-		fName[1] = "녕";
-		fName[2] = "하";
-		fName[3] = "세";
-		fName[4] = "요";
+		str[0] = "안";
+		str[1] = "녕";
+		str[2] = "하";
+		str[3] = "세";
+		str[4] = "요";
 
-		for (int i = 0; i < fName.length; i++) {
-			System.out.print(fName[i]);
+		for (int i = 0; i < str.length; i++) {
+			System.out.print(str[i]);
 
 		}
 
