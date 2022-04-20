@@ -18,14 +18,14 @@ public class Ex03 {
 		------------------------------------------------------------------------------------------
 		힙
 		 0*777
-		----
-		|	|
-		-----
+			------------------------------------------------
+			|스택값||스택값||스택값||스택값||스택값||스택값|
+			------------------------------------------------
+			  [0]     [1]     [2]     [3]     [4]	  [5]   
 		
 		 */
 
 		int[] nums = new int[6];
-		/*
 		nums[0] = (int) (Math.random() * 45) + 1;
 		
 		nums[1] = (int) (Math.random() * 45) + 1;
@@ -34,6 +34,7 @@ public class Ex03 {
 		nums[4] = (int) (Math.random() * 45) + 1;
 		nums[5] = (int) (Math.random() * 45) + 1;
 		
+		/*
 		System.out.println(nums[0]);
 		System.out.println(nums[4]);
 		System.out.println("=============================");
@@ -45,7 +46,6 @@ public class Ex03 {
 		for (int i = 0; i < nums.length; i++) {
 			System.out.println(nums[i]);
 		}
-
 	}
 
 }
